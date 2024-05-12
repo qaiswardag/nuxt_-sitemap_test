@@ -13,6 +13,12 @@
   >
     <div class="myPrimaryMenuTextButton">Listings</div>
   </NuxtLink>
+  <a
+    href="/sitemap.xml"
+    target="_blank"
+  >
+    Sitemap
+  </a>
   <hr />
   <NuxtPage />
 </template>

@@ -4,7 +4,8 @@ import TailwindPagination from '../TailwindPagination';
 
 const stores = ref(null);
 const getData = async function (pageNumber) {
-  const url = `http://localhost:8000/api/guest/stores/index?page=${pageNumber}`;
+  // const url = `http://localhost:8000/api/guest/stores/index?page=${pageNumber}`;
+  const url = `https://www.admin.myself.ae/api/guest/stores/index?page=${pageNumber}`;
 
   const res = await fetch(url);
   stores.value = await res.json();
