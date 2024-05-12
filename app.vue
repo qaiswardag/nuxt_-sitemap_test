@@ -17,7 +17,7 @@
     href="/sitemap.xml"
     target="_blank"
   >
-    Sitemap
+    Sitemap XML
   </a>
   <hr />
   <NuxtPage />
